@@ -1,0 +1,152 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif !important;
+}
+
+.white-text {
+  color: white !important;
+}
+.white-text:hover {
+  color: #46FE90 !important;
+}
+
+.btn-principal {
+  border: 1.5px solid #46FE90 !important;
+  color: #46FE90;
+}
+.btn-principal:hover {
+  background-color: #46FE90 !important;
+  color: black;
+}
+
+.btn-withColor {
+  background-color: #46FE90;
+  color: white;
+}
+
+#header img {
+  width: 40px;
+}
+
+.carousel {
+  margin-top: 20px;
+}
+
+#main .carousel-inner img {
+  height: 1000px;
+  max-height: 80vh;
+  object-fit: cover;
+}
+
+.title-text-bold {
+  font-weight: 900;
+}
+
+#carousel {
+  position: relative;
+}
+
+#carousel .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.20);
+  color: white;
+  z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+  height: 100%;
+}
+
+.btn-speaker {
+  /* float: center; */
+  margin-top: 10px;
+}
+
+.btn-tickets {
+  width: 175px;
+}
+
+.speakers-title {
+  color: #46FE90;
+}
+
+#speakers img {
+  height: 348px;
+  object-fit: cover;
+}
+
+#news {
+  background-color: #007BFF;
+  color: white;
+}
+
+#news img {
+  max-width: 100%;
+}
+
+.news-text {
+  margin: 50px 0 0 25px;
+}
+
+.news-p {
+  margin: 25px 0 0 25px;
+  width: auto;
+  height: auto;
+}
+
+#news .icon {
+  margin: 25px 0 0 25px;
+  width: 20px;
+}
+
+#news small {
+  margin: 0px 0 0 25px !important;
+}
+
+#be-a-speaker h6 {
+  font-weight: 700;
+  color: #007BFF;
+}
+
+#be-a-speaker .form-control {
+  border: 2px solid #46FE90;
+}
+
+#footer{
+  background-color: #007BFF;
+}
+
+#footer a {
+  color: white;
+}
+
+#footer small {
+  color: #46FE90;
+}
+
+#footer small a {
+  color: #46FE90;
+  font-weight: 700;
+}
+
+.modal input {
+  border: 1px solid #46FE90;
+}
+
+.btn-red {
+  color: white;
+  background-color: tomato;
+}
+
+.modal-header button {
+  color: #46fe90;
+  font-weight: 900;
+}
